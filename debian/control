@@ -1,0 +1,2264 @@
+Source: tesseract-lang
+Section: graphics
+Priority: optional
+Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.1.4
+Homepage: https://github.com/tesseract-ocr/
+Vcs-Git: https://github.com/AlexanderP/tesseract-lang-debian.git
+Vcs-Browser: https://github.com/AlexanderP/tesseract-lang-debian
+
+Package: tesseract-ocr-bul
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Bulgarian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Bulgarian language.
+
+Package: tesseract-ocr-cat
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Catalan
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Catalan language.
+
+Package: tesseract-ocr-ces
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Czech
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Czech language.
+
+Package: tesseract-ocr-dan
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Danish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Danish language.
+
+Package: tesseract-ocr-deu
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for German
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in German language.
+
+Package: tesseract-ocr-ell
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Greek
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Greek language.
+
+Package: tesseract-ocr-eng
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for English
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in English language.
+
+Package: tesseract-ocr-fin
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Finnish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Finnish language.
+
+Package: tesseract-ocr-fra
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for French
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in French language.
+
+Package: tesseract-ocr-hun
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Hungarian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Hungarian language.
+
+Package: tesseract-ocr-ind
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Indonesian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Indonesian language.
+
+Package: tesseract-ocr-ita
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Italian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Italian language.
+
+Package: tesseract-ocr-lav
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Latvian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Latvian language.
+
+Package: tesseract-ocr-lit
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Lithuanian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Lithuanian language.
+
+Package: tesseract-ocr-nld
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Dutch
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Dutch language.
+
+Package: tesseract-ocr-nor
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Norwegian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Norwegian language.
+
+Package: tesseract-ocr-pol
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Polish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Polish language.
+
+Package: tesseract-ocr-por
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Portuguese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Portuguese language.
+
+Package: tesseract-ocr-ron
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Romanian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Romanian language.
+
+Package: tesseract-ocr-rus
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Russian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Russian language.
+
+Package: tesseract-ocr-slk
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Slovakian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Slovakian language.
+
+Package: tesseract-ocr-slv
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Slovenian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Slovenian language.
+
+Package: tesseract-ocr-spa
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Spanish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Spanish language.
+
+Package: tesseract-ocr-srp
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Serbian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Serbian language.
+
+Package: tesseract-ocr-swe
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Swedish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Swedish language.
+
+Package: tesseract-ocr-tur
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Turkish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Turkish language.
+
+Package: tesseract-ocr-ukr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Ukrainian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Ukrainian language.
+
+Package: tesseract-ocr-vie
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Vietnamese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Vietnamese language.
+
+Package: tesseract-ocr-chi-sim
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Chinese - Simplified
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Chinese - Simplified language.
+
+Package: tesseract-ocr-chi-tra
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Chinese - Traditional
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Chinese - Traditional language.
+
+Package: tesseract-ocr-amh
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Amharic
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Amharic language.
+
+Package: tesseract-ocr-asm
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Assamese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Assamese language.
+
+Package: tesseract-ocr-aze-cyrl
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99), tesseract-ocr-aze (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Azerbaijani (Cyrillic)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Azerbaijani (Cyrillic) language.
+
+Package: tesseract-ocr-bod
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Tibetan Standard
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tibetan Standard language.
+
+Package: tesseract-ocr-bos
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Bosnian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Bosnian language.
+
+Package: tesseract-ocr-ceb
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Cebuano
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Cebuano language.
+
+Package: tesseract-ocr-cym
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Welsh
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Welsh language.
+
+Package: tesseract-ocr-dzo
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Dzongkha
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Dzongkha language.
+
+Package: tesseract-ocr-fas
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Persian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Persian language.
+
+Package: tesseract-ocr-gle
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Irish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Irish language.
+
+Package: tesseract-ocr-guj
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Gujarati
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Gujarati language.
+
+Package: tesseract-ocr-hat
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Haitian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Haitian language.
+
+Package: tesseract-ocr-iku
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Inuktitut
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Inuktitut language.
+
+Package: tesseract-ocr-jav
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Javanese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Javanese language.
+
+Package: tesseract-ocr-kat
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Georgian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Georgian language.
+
+Package: tesseract-ocr-kat-old
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Old Georgian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Old Georgian language.
+
+Package: tesseract-ocr-kaz
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Kazakh
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Kazakh language.
+
+Package: tesseract-ocr-khm
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Khmer
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Khmer language.
+
+Package: tesseract-ocr-kir
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Kyrgyz
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Kyrgyz language.
+
+Package: tesseract-ocr-lao
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Lao
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Lao language.
+
+Package: tesseract-ocr-lat
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Latin
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Latin language.
+
+Package: tesseract-ocr-mar
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Marathi
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Marathi language.
+
+Package: tesseract-ocr-mya
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Burmese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Burmese language.
+
+Package: tesseract-ocr-nep
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Nepali
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Nepali language.
+
+Package: tesseract-ocr-ori
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Oriya
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Oriya language.
+
+Package: tesseract-ocr-pan
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Punjabi
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Punjabi language.
+
+Package: tesseract-ocr-pus
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Pashto
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Pashto language.
+
+Package: tesseract-ocr-san
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Sanskrit
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Sanskrit language.
+
+Package: tesseract-ocr-sin
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Sinhala
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Sinhala language.
+
+Package: tesseract-ocr-srp-latn
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}, tesseract-ocr-srp (>= 3.99)
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Serbian (Latin)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Serbian (Latin) language.
+
+Package: tesseract-ocr-syr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Syriac
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Syriac language.
+
+Package: tesseract-ocr-tgk
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Tajik
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tajik language.
+
+Package: tesseract-ocr-tir
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Tigrinya
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tigrinya language.
+
+Package: tesseract-ocr-uig
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Uyghur
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Uyghur language.
+
+Package: tesseract-ocr-urd
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Urdu
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Urdu language.
+
+Package: tesseract-ocr-uzb
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}, tesseract-ocr-uzb-cyrl (>= 3.99)
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Uzbek
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Uzbek language.
+
+Package: tesseract-ocr-uzb-cyrl
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99), tesseract-ocr-uzb (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Uzbek (Cyrillic)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Uzbek (Cyrillic) language.
+
+Package: tesseract-ocr-yid
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Yiddish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Yiddish language.
+
+Package: tesseract-ocr-afr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Afrikaans
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Afrikaans language.
+
+Package: tesseract-ocr-ara
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Arabic
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Arabic language.
+
+Package: tesseract-ocr-aze
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}, tesseract-ocr-aze-cyrl (>= 3.99)
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Azerbaijani
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Azerbaijani language.
+
+Package: tesseract-ocr-bel
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Belarusian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Belarusian language.
+
+Package: tesseract-ocr-ben
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Bengali
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Bengali language.
+
+Package: tesseract-ocr-chr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Cherokee
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Cherokee language.
+
+Package: tesseract-ocr-enm
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for English, Middle (1100-1500)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in English, Middle (1100-1500) language.
+
+Package: tesseract-ocr-epo
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Esperanto
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Esperanto language.
+
+Package: tesseract-ocr-est
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Estonian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Estonian language.
+
+Package: tesseract-ocr-eus
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Basque
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Basque language.
+
+Package: tesseract-ocr-frk
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for German (Fraktur)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in German (Fraktur) language.
+
+Package: tesseract-ocr-frm
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for French, Middle (ca.1400-1600)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in French, Middle (ca.1400-1600) language.
+
+Package: tesseract-ocr-glg
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Galician
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Galician language.
+
+Package: tesseract-ocr-heb
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Hebrew
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Hebrew language.
+
+Package: tesseract-ocr-hin
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Hindi
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Hindi language.
+
+Package: tesseract-ocr-hrv
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Croatian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Croatian language.
+
+Package: tesseract-ocr-isl
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Icelandic
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Icelandic language.
+
+Package: tesseract-ocr-ita-old
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Italian - Old
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Italian - Old language.
+
+Package: tesseract-ocr-jpn
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Japanese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Japanese language.
+
+Package: tesseract-ocr-kan
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Kannada
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Kannada language.
+
+Package: tesseract-ocr-kor
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Korean
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Korean language.
+
+Package: tesseract-ocr-mal
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Malayalam
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Malayalam language.
+
+Package: tesseract-ocr-mkd
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Macedonian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Macedonian language.
+
+Package: tesseract-ocr-mlt
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Maltese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Maltese language.
+
+Package: tesseract-ocr-msa
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Malay
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Malay language.
+
+Package: tesseract-ocr-spa-old
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Spanish, Castilian - Old
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Spanish, Castilian - Old language.
+
+Package: tesseract-ocr-sqi
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Albanian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Albanian language.
+
+Package: tesseract-ocr-swa
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Swahili
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Swahili language.
+
+Package: tesseract-ocr-tam
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Tamil
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tamil language.
+
+Package: tesseract-ocr-tel
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Telugu
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Telugu language.
+
+Package: tesseract-ocr-tha
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Thai
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Thai language.
+
+Package: tesseract-ocr-grc
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Greek, Ancient (to 1453)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Greek, Ancient (to 1453) language.
+
+Package: tesseract-ocr-bre
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Breton
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Breton language.
+
+Package: tesseract-ocr-chi-sim-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Chinese - Simplified (vertical)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Chinese - Simplified (vertical) language.
+
+Package: tesseract-ocr-chi-tra-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Chinese - Traditional (vertical)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Chinese - Traditional (vertical) language.
+
+Package: tesseract-ocr-cos
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Corsican
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Corsican language.
+
+Package: tesseract-ocr-div
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Divehi
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Divehi language.
+
+Package: tesseract-ocr-fao
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Faroese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Faroese language.
+
+Package: tesseract-ocr-fil
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Filipino
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Filipino language.
+
+Package: tesseract-ocr-fry
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Frisian (Western)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Frisian (Western) language.
+
+Package: tesseract-ocr-gla
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Gaelic (Scots)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Gaelic (Scots) language.
+
+Package: tesseract-ocr-hye
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Armenian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Armenian language.
+
+Package: tesseract-ocr-jpn-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Japanese (vertical)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Japanese (vertical) language.
+
+Package: tesseract-ocr-kor-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Korean (vertical)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Korean (vertical) language.
+
+Package: tesseract-ocr-kmr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Kurmanji (Latin)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Kurmanji (Latin) language.
+
+Package: tesseract-ocr-ltz
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Luxembourgish
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Luxembourgish language.
+
+Package: tesseract-ocr-mon
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Mongolian
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Mongolian language.
+
+Package: tesseract-ocr-mri
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Maori
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Maori language.
+
+Package: tesseract-ocr-oci
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Occitan (post 1500)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Occitan (post 1500) language.
+
+Package: tesseract-ocr-que
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Quechua
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Quechua language.
+
+Package: tesseract-ocr-snd
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Sindhi
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Sindhi language.
+
+Package: tesseract-ocr-sun
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Sundanese
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Sundanese language.
+
+Package: tesseract-ocr-tat
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Tatar
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tatar language.
+
+Package: tesseract-ocr-ton
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Tonga
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tonga language.
+
+Package: tesseract-ocr-yor
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Yoruba
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Yoruba language.
+
+Package: tesseract-ocr-osd
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for script and orientation
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for identifying script and orientation.
+
+Package: tesseract-ocr-script-arab
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Arabic script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Arabic script.
+
+Package: tesseract-ocr-script-armn
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Armenian script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Armenian script.
+
+Package: tesseract-ocr-script-beng
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Bengali script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Bengali script.
+
+Package: tesseract-ocr-script-cans
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Canadian Aboriginal script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Canadian Aboriginal script.
+
+Package: tesseract-ocr-script-cher
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Cherokee script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Cherokee script.
+
+Package: tesseract-ocr-script-cyrl
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Cyrillic script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Cyrillic script.
+
+Package: tesseract-ocr-script-deva
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Devanagari script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Devanagari script.
+
+Package: tesseract-ocr-script-ethi
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Ethiopic script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Ethiopic script.
+
+Package: tesseract-ocr-script-frak
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Fraktur script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Fraktur script.
+
+Package: tesseract-ocr-script-geor
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Georgian script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Georgian script.
+
+Package: tesseract-ocr-script-grek
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Greek script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Greek script.
+
+Package: tesseract-ocr-script-gujr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Gujarati script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Gujarati script.
+
+Package: tesseract-ocr-script-guru
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Gurmukhi script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Gurmukhi script.
+
+Package: tesseract-ocr-script-hans
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Han - Simplified script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Han - Simplified script.
+
+Package: tesseract-ocr-script-hans-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Han - Simplified (vertical) script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Han - Simplified (vertical) script.
+
+Package: tesseract-ocr-script-hant
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Han - Traditional script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Han - Traditional script.
+
+Package: tesseract-ocr-script-hant-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Han - Traditional (vertical) script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Han - Traditional (vertical) script.
+
+Package: tesseract-ocr-script-hang
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Hangul script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Hangul script.
+
+Package: tesseract-ocr-script-hang-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Hangul (vertical) script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Hangul (vertical) script.
+
+Package: tesseract-ocr-script-hebr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Hebrew script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Hebrew script.
+
+Package: tesseract-ocr-script-jpan
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Japanese script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Japanese script.
+
+Package: tesseract-ocr-script-jpan-vert
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Japanese (vertical) script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Japanese (vertical) script.
+
+Package: tesseract-ocr-script-knda
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Kannada script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Kannada script.
+
+Package: tesseract-ocr-script-khmr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Khmer script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Khmer script.
+
+Package: tesseract-ocr-script-laoo
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Lao script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Lao script.
+
+Package: tesseract-ocr-script-latn
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Latin script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Latin script.
+
+Package: tesseract-ocr-script-mlym
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Malayalam script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Malayalam script.
+
+Package: tesseract-ocr-script-mymr
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Myanmar script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Myanmar script.
+
+Package: tesseract-ocr-script-orya
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Oriya (Odia) script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Oriya (Odia) script.
+
+Package: tesseract-ocr-script-sinh
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Sinhala script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Sinhala script.
+
+Package: tesseract-ocr-script-syrc
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Syriac script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Syriac script.
+
+Package: tesseract-ocr-script-taml
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Tamil script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tamil script.
+
+Package: tesseract-ocr-script-telu
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Telugu script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Telugu script.
+
+Package: tesseract-ocr-script-thaa
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Thaana script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Thaana script.
+
+Package: tesseract-ocr-script-thai
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Thai script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Thai script.
+
+Package: tesseract-ocr-script-tibt
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Tibetan script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Tibetan script.
+
+Package: tesseract-ocr-script-viet
+Architecture: all
+Multi-Arch: foreign
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr data for Vietnamese script
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Vietnamese script.
+
